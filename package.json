@@ -1,0 +1,25 @@
+{
+  "name": "renovate-config-flybayer",
+  "description": "Brandon Bayer's configs for Renovate",
+  "author": "Brandon Bayer <b@bayer.ws>",
+  "license": "MIT",
+  "homepage": "https://github.com/flybayer/renovate-config-flybayer",
+  "bugs": {
+    "url": "https://github.com/flybayer/renovate-config-flybayer/issues"
+  },
+  "version": "0.0.1",
+  "renovate-config": {
+   "default": {
+      "extends": ["config:base"],
+      "dependencies": {
+        "semanticPrefix": "chore(deps):"
+      },
+      "devDependencies": {
+        "automerge": true
+      },
+      "patch": {
+        "automerge": true
+      }
+    }
+  }
+}
