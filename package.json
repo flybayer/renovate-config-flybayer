@@ -7,10 +7,11 @@
   "bugs": {
     "url": "https://github.com/flybayer/renovate-config-flybayer/issues"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "renovate-config": {
    "default": {
       "extends": ["config:base", "schedule:daily"],
+      "automergeType": "branch-push",
       "dependencies": {
         "semanticPrefix": "chore(deps):"
       },
